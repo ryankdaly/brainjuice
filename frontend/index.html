@@ -30,60 +30,67 @@
     .dept { margin: 0.25rem 0; }
     .label { font-weight: 600; }
   </style>
+  <script 
+    src="https://www.paypal.com/sdk/js?client-id=BAAbhcfrw1eux9vqZcDPcOqjJReH63Ne_veaHWNvKX8kunip1oeZPnOwRYe_IjWEklK_YDI2xb-IBQj8IQ&components=hosted-buttons&enable-funding=venmo&currency=USD">
+  </script>
 </head>
 <body>
   <main class="card">
-    <h1>Brain Juice Inc.</h1>
-
-    <p>Welcome to <strong>brainjuice.studio</strong>.</p>
+    <h1>BrainJuiceInc.</h1>
+    <p><strong>!under construction!</strong></p>
+    <p>Welcome to <strong>brainjuice.studio</strong>; the virtual home of BrainJuiceInc.</p>
     <p>
-      A development studio dedicated to innovative collaborative projects of all kinds
+      An independent development studio dedicated to innovative collaborative projects of all kinds.
     </p>
     <p>
-      Our projects range from secure software engineering and video game development to music and storytelling.
+      Our projects range from secure software engineering and video game development to music production and novel publishing.
     </p>
     <p>
       This website's infrastructure and many of Nuroforge's projects are open source and available on Github.
     </p>
     <p>
-      brainjuice.studio repo: 
-      <a href="https://github.com/ryankdaly/brainjuice">github.com/ryankdaly/brainjuice</a>
-      <br />
-      NuroForge: 
+      NuroForge Studio: 
       <a href="https://github.com/nuroforge">github.com/nuroforge</a>
+      <br />
+      brainjuice.studio repository: 
+      <a href="https://github.com/ryankdaly/brainjuice">github.com/ryankdaly/brainjuice</a>
     </p>
 
-    <h2>DEPARTMENTS/CONTACT</h2>
+    <h2>Departments & Contact</h2>
 
     <p class="dept">
       <span class="label">Publishing/Business/General:</span>
-      Brain Juice Inc.:
+      BrainJuiceInc. -
       <a href="mailto:mail@brainjuice.studio">mail@brainjuice.studio</a>
     </p>
 
     <p class="dept">
       <span class="label">Engineering/Development:</span>
-      NuroForge Studio:
+      NuroForgeStudio -
       <a href="mailto:nuroforge@brainjuice.studio">nuroforge@brainjuice.studio</a>
     </p>
 
     <p class="dept">
       <span class="label">Record Label:</span>
-      Grey Matter Sounds:
+     GreyMatterSounds -
       <a href="mailto:greymatters@brainjuice.studio">greymatters@brainjuice.studio</a>
     </p>
 
-    <h2>Our Artists</h2>
+    <h2>Our Artists:</h2>
     <p class="dept">
-      Zebediah Bush:
+    Zebediah Bush
       <a href="https://soundcloud.com/thornybush">soundcloud.com/thornybush</a>
     </p>
 
     <p class="dept">
-      Albert Carrick:
-      <!-- add link when ready -->
+      <!-- add Albert Carrick when ready -->
     </p>
-
+    <div id="paypal-container-KR8AR4UGZYWH2"></div>
+    <script>
+      paypal.HostedButtons({
+        hostedButtonId: "KR8AR4UGZYWH2",
+      }).render("#paypal-container-KR8AR4UGZYWH2")
+    </script>
   </main>
 </body>
 </html>
